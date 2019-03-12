@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OneSwipe</string>
+    <string name="app_name_premium">OneSwipe 프리미엄</string>
+    <string name="app_name_lite">OneSwipe 라이트</string>
+    <string name="nofification_text">실행중. 설정 하려면 터치하세요</string>
+    <string name="activity_title_settings">OneSwipe 베타</string>
+    <string name="activity_title_developer_settings">개발자 설정</string>
+    <string name="activity_title_settings_trigger_area">트리거 영역</string>
+    <string name="activity_title_settings_theme">테마</string>
+    <string name="activity_title_settings_gesture">제스처</string>
+    <string name="activity_title_tutorial">튜토리얼 - 기본</string>
+    <string name="action_settings">설정</string>
+    <string name="notification_text_trigger_area_disabled">활성화 하려면 터치하세요</string>
+    <string name="notification_title_trigger_area_enabled">OneSwipe</string>
+    <string name="toast_trigger_area_detect_enabled">트리거 영역이 활성화 되었습니다</string>
+    <string name="toast_trigger_area_detect_disable">트리거 영역이 비활성화 되었습니다</string>
+    <string name="toast_premium">프리미엄 버전</string>
+    <string name="toast_pattern_fail">패턴 언락 실패</string>
+    <string name="toast_lite">라이트 버전</string>
+    <string name="toast_invalid_file">옳지않은 파일입니다</string>
+    <string name="toast_have_to_pattern">언락패턴을 먼저 등록하세요</string>
+    <string name="toast_add_item_first">분석하기 전에 패드에 아이탬을 등록해주세요</string>
+    <string name="toast_not_available_dock">이 위치에는 폴더를 만들 수 없습니다</string>
+    <string name="toast_not_found">해당 어플리케이션을 찾을 수 없습니다. Google Play 실행합니다.</string>
+    <string name="toast_drag_help">드래그 앤 드랍, 편집이 끝나면 패드 바깥 부분 터치하세요</string>
+    <string name="toast_drag_finish">편집모드 해제</string>
+    <string name="toast_not_found_launchinfo">현재 앱에서 실행정보를 찾을 수 없습니다.</string>
+    <string name="toast_accessibility_message">"환경설정 > 접근성"에서 OneSwipe 서비스를 켜주세요</string>
+    <string name="toast_accessibility_message_detail">"Back키, 홈, 인디케이터, 최근실행 목록 도구를 사용하려면 OneSwipe 서비스를 켜주세요</string>
+    <string name="toast_message_back_again">종료하려면 Back키를 한번 더 누르세요.</string>
+    <string name="count">실행횟수</string>
+    <string name="order_by_launchcount">실행횟수 정렬</string>
+    <string name="order_by_created">생성날짜 정렬</string>
+    <string name="order_by_type">타입 정렬</string>
+    <string name="menu_applist_reload">새로고침</string>
+    <string name="format_since_justnow">방금 전</string>
+    <string name="format_since_minutes">분 전</string>
+    <string name="format_since_hours">시간 전</string>
+    <string name="format_since_days">일 전</string>
+    <string name="format_since_months">달 전</string>
+    <string name="format_since_years">년 전</string>
+    <string name="format_since_minute">분 전</string>
+    <string name="format_since_hour">시간 전</string>
+    <string name="format_since_day">일 전</string>
+    <string name="format_since_month">달 전</string>
+    <string name="format_since_year">년 전</string>
+    <string name="apply">적용</string>
+    <string name="rotate">회전</string>
+    <string name="pinlock_title">보조용 PIN을 입력하세요</string>
+    <string name="pinlock_sentence">패턴을 잊어버렸다면 보조키를 입력하여 잠금을 해제할 수 있습니다.</string>
+    <string name="pinlock_title_at_least">PIN은 최소 4개 이상의 숫자를 포함해야 합니다/</string>
+    <string name="pinlock_title_tap_ok">완료되면 계속 버튼을 누르세요</string>
+    <string name="pinlock_title_confirm">PIN 확인</string>
+    <string name="pinlock_title_confirm_5fail">5번 입력이 잘못 되었습니다.. PIN 확인으로 패턴을 다시 설정하세요</string>
+    <string name="pinlock_title_not_match">PIN이 일치하지 않습니다.</string>
+    <string name="button_continue">계속</string>
+    <string name="button_ok">확인</string>
+    <string name="button_cancel">취소</string>
+    <string name="button_select">선택</string>
+
+    <!-- Preference Settings -->
+    <string name="pref_category_basic">기본설정</string>
+    <string name="pref_category_style">스타일 <![CDATA["&"]]> 애니메이션</string>
+    <string name="pref_category_data">데이터</string>
+    <string name="pref_category_style_summary_animation_enabled">애니메이션 활성화 중</string>
+    <string name="pref_category_style_summary_animation_disabled">애니메이션 비활성화 중</string>
+    <string name="pref_category_style_summary_gesture_enabled">제스처기능 활성화 중</string>
+    <string name="pref_category_style_summary_gesture_disabled">제스처기능 비활성화 중</string>
+    <string name="pref_category_style_summary_statusinfo_enabled">상태정보 보여주기 활성화 중</string>
+    <string name="pref_category_style_summary_statusinfo_disabled">상태정보 보여주기 비활성화 중</string>
+    <string name="pref_category_style_summary_show_title_enabled">아이콘 이름 보여주기 활성화 중</string>
+    <string name="pref_category_style_summary_show_title_disabled">아이콘 이름 보여주기 비활성화 중</string>
+    <string name="pref_category_feature">구입</string>
+    <string name="pref_category_etc">기타</string>
+    <string name="pref_category_analysis">분석</string>
+    <string name="pref_title_default">기본 색상 배경이미지 적용</string>
+    <string name="pref_title_animation">애니메이션</string>
+    <string name="pref_title_gesture">제스처</string>
+    <string name="pref_title_statusinfo">상태정보 화면</string>
+    <string name="pref_title_show_title">아이콘 이름 보이기</string>
+    <string name="pref_haptic_title">햅틱 효과</string>
+    <string name="pref_haptic_summary">트리거 영역을 터치 할 때 진동합니다</string>
+    <string name="pref_trigger_visible">트리거 영역 보이기</string>
+    <string name="pref_trigger_visible_summary">트리거 영역 보이기/감추기</string>
+    <string name="pref_title_buy">OneSwipe 프리미엄</string>
+    <string name="pref_title_buy_summary">광고 없이 이용하세요^^ </string>
+    <string name="pref_title_how_to_use">OneSwipe 사용방법</string>
+    <string name="pref_title_how_to_use_summary">OneSwipe 사용방법을 배워 보세요</string>
+    <string name="pref_title_registered_items">등록된 아이템(앱, 바로가기, 위젯)</string>
+    <string name="pref_title_registered_items_summary">등록된 아이템을 볼 수 있습니다</string>
+    <string name="pref_title_rate">별점주기</string>
+    <string name="pref_title_rate_summary">OneSwipe가 마음에 들면 별점 5점 주세요 :)\n일인개발자에게 힘이 됩니다!!</string>
+    <string name="pref_title_feedback">피드백</string>
+    <string name="pref_title_feedback_summary">개발자에게 이메일로 제안해 주세요 </string>
+    <string name="pref_title_like_facebook">페이스북 좋아요</string>
+    <string name="pref_title_like_facebook_summary">페이스북에서 OneSwipe 소식을 받아보세요</string>
+    <string name="pref_title_share">추천하기</string>
+    <string name="pref_title_share_summary">지인들에게 OneSwipe를 추천해 보세요</string>
+    <string name="pref_title_share_message">\n진정한 멀티테스킹 런쳐앱 OneSwipe\n\n</string>
+    <string name="pref_title_share_chooseone">Choose one</string>
+    <string name="pref_title_pad_size">패드 사이즈</string>
+
+    <string name="pref_title_pad_dynamic_pad_option">최근실행 패드 옵션 (실험실)</string>
+    <string name="pref_title_pad_dynamic_pad_option_summary_none">최근실행 패드에서 롱프레스시 동작 설정</string>
+    <string name="pref_title_pad_dynamic_pad_option_summary_penwindow">팬 윈도우 (갤럭시 노트)</string>
+    <string name="pref_title_pad_dynamic_pad_option_summary_forceclose">force close (root)</string>
+    <string name="pref_title_pad_interaction">스와이프 동작 방식 (실험실)</string>
+    <string name="pref_title_pad_interaction_summary_swipe_and_touch">트리거 영역 터치 후 일정 영역에서 패드가 나오며 터치로 실행</string>
+    <string name="pref_title_pad_interaction_summary_swipe_and_up">트리거 영역 터치 후 원하는 영역에서 손가락을 뗍니다</string>
+    <string name="pref_title_tutorial">튜토리얼</string>
+
+
+    <string name="pref_booster">메모리 부스터</string>
+    <string name="pref_trigger_area_title">트리거 영역</string>
+    <string name="pref_trigger_area_summary">트리거 영역 구역을 설정해 보세요</string>
+    <string name="pref_version_title">버전</string>
+    <string name="pref_version_summary">1.0.0</string>
+    <string name="pref_lock_create_title">패턴락</string>
+    <string name="pref_lock_create_summary_created">패턴 세팅 완료</string>
+    <string name="pref_lock_create_summary_not_created">패턴 세팅 필요</string>
+    <string name="preft_vibration_level_title">진동 레벨</string>
+    <string name="pref_gesture_title">제스처</string>
+    <string name="pref_gesture_summary">패드에서 제스처 동작후 2초간 유지하면 세팅 가능</string>
+    <string name="pref_cropper_title">배경 이미지</string>
+    <string name="pref_cropper_summary">패드 뒤 배경 이미지를 설정하세요</string>
+    <string name="pref_theme_select_title">테마</string>
+    <string name="pref_theme_select_summary">테마를 고르세요</string>
+    <string name="pref_data_app_list_cache_reset_title">앱 아이콘 리셋</string>
+    <string name="pref_data_app_list_cache_reset_summary">현재 설치된 앱의 아이콘들을 다시 로드합니다</string>
+    <string name="pref_booster_apps_excluded_while_boosting_title">메모리 부스터 동작시 앱 제외 목록</string>
+    <string name="pref_vibration_level_title">진동 레벨</string>
+    <string name="settings_gesture_type_killprocess">어플리케이션 강제종료</string>
+    <string name="settings_gesture_type_context">컨텍스트</string>
+    <string name="settings_gesture_type_back">폴더 뒤로</string>
+    <string name="settings_gesture_type_close">닫기</string>
+    <string name="settings_gesture_type_launch">실행</string>
+    <string name="settings_gesture_type_recentapplication">최근 실행 목록</string>
+    <string name="settings_gesture_type_home">홈 가기</string>
+    <string name="settings_gesture_type_indicator">인디케이터</string>
+    <string name="settings_gesture_type_appinfo">어플리케이션 정보</string>
+    <string name="settings_gesture_type_padsettings">OneSwipe 세팅</string>
+    <string name="settings_gesture_type_trigger_area_detect_disable">트리거 영역 비활성화</string>
+    <string name="settings_function_type_home">홈</string>
+    <string name="settings_function_type_booster">메모리 정리</string>
+    <string name="settings_function_type_indicator">인디케이터</string>
+    <string name="settings_function_type_recentapplication">최근 실행 목록</string>
+    <string name="settings_function_type_lastapp">이전앱(Alt+Tab)</string>
+    <string name="settings_function_type_recentapplication_onpad">최근실행 패드</string>
+    <string name="settings_function_type_context">현재 어플 정보</string>
+    <string name="settings_function_type_close">종료</string>
+    <string name="settings_function_type_padsettings">OneSwipe 설정</string>
+    <string name="settings_function_type_all_applications">모든 어플리케이션 보기</string>
+    <string name="settings_function_type_trigger_area_detect_disable">트리거 영역 비활성화</string>
+    <string name="settings_function_type_gps">GPS</string>
+    <string name="settings_function_type_wifi">Wi-Fi ON/OFF</string>
+    <string name="settings_function_type_ringmode">Ring Mode</string>
+    <string name="settings_function_type_airplane">Airplane</string>
+    <string name="settings_function_type_displaybright">Display Bright</string>
+    <string name="settings_function_type_rotation">Screen Rotation</string>
+    <string name="settings_function_type_bluetooth">Bluetooth</string>
+    <string name="settings_function_type_battery">Battery</string>
+    <string name="settings_function_type_clearmemory">Clear Memory</string>
+    <string name="settings_function_type_menubutton">Menu Button</string>
+    <string name="settings_function_type_backbutton">Back Button</string>
+    <string name="settings_function_type_flash">Flash Light</string>
+    <string name="settings_function_type_autosync">Auto Sync</string>
+    <string name="settings_function_type_displaysleep">Display Sleep</string>
+    <string name="settings_function_type_lockenable">Lock Enable</string>
+    <string name="pref_trigger_area_title_top_left_corner">위 왼쪽 모서리</string>
+    <string name="pref_trigger_area_title_top_right_corner">위 오른쪽 모서리</string>
+    <string name="pref_trigger_area_title_left_edge_upper_half">왼쪽 위</string>
+    <string name="pref_trigger_area_title_right_edge_upper_half">오른쪽 위</string>
+    <string name="pref_trigger_area_title_left_edge_lower_half">왼쪽 아래</string>
+    <string name="pref_trigger_area_title_right_edge_lower_half">오른쪽 아래</string>
+    <string name="pref_trigger_area_title_bottom_left_corner">아래 왼쪽 모서리</string>
+    <string name="pref_trigger_area_title_bottom_right_corner">아래 오른쪽 모서리</string>
+    <string name="pref_trigger_area_title_bottom_left">아래 왼쪽</string>
+    <string name="pref_trigger_area_title_bottom_right">아래 오른쪽</string>
+    <string name="pref_trigger_area_title_bottom_edge">아래 중간</string>
+    <string name="pref_gesture_up">위</string>
+    <string name="pref_gesture_down">아래</string>
+    <string name="pref_gesture_left">왼쪽</string>
+    <string name="pref_gesture_right">오른쪽</string>
+    <string name="popupmenu_add">추가 / 변경</string>
+    <string name="popupmenu_move">이동</string>
+    <string name="popupmenu_rename">이름 바꾸기</string>
+    <string name="popupmenu_delete">삭제</string>
+    <string name="popupmenu_text">텍스트</string>
+    <string name="popupmenu_image">빠른 파일 열기 : 이미지</string>
+    <string name="popupmenu_audio">빠른 파일 열기 : 오디오</string>
+    <string name="popupmenu_video">빠른 파일 열기 : 비디오</string>
+
+    <string name="add_link_list_applications">앱/연락처/도구/바로가기</string>
+    <string name="add_link_list_application">어플리케이션</string>
+    <string name="add_link_list_shortcut">바로가기</string>
+    <string name="add_link_list_group">폴더</string>
+    <string name="add_link_list_tools">도구</string>
+    <string name="add_link_list_group_secret">시크릿 폴더</string>
+    <string name="add_link_list_widget">위젯</string>
+    <string name="add_link_list_home">홈</string>
+    <string name="add_link_list_toggle_indicator">인디케이터</string>
+    <string name="add_link_list_recentapps">최근 앱 목록</string>
+    <string name="add_link_list_context">컨텍스트</string>
+    <string name="add_link_list_remove">지우기</string>
+    <string name="add_link_list_dragdrop">위치 편집하기</string>
+    <string name="add_link_list_quickcall">빠른 전화걸기</string>
+    <string name="add_link_list_settings">세팅</string>
+    <string name="add_link_list_fileopen">빠른 파일열기</string>
+    <string name="add_link_list_currentapp">현재 어플리케이션</string>
+    <string name="context_list_googleplay">구글 마켓</string>
+    <string name="context_list_applicationinfo">어플리케이션 정보</string>
+    <string name="context_list_forcestop">강제 종료</string>
+    <string name="context_list_delete">어플리케이션 삭제</string>
+    <string name="unnamed_folder"></string>
+
+    <!-- Color picker -->
+    <string name="dialog_color_picker">색을 고르세요</string>
+    <string name="dialog_color_picker_background">배경색</string>
+    <string name="dialog_color_picker_background_summary">배경색을 설정하세요</string>
+    <string name="dialog_color_picker_pad_background">패드 배경색</string>
+    <string name="dialog_color_picker_pad_background_summary">패드 배경색을 설정하세요</string>
+    <string name="dialog_color_picker_guideline">가이드라인 색상</string>
+    <string name="dialog_color_picker_guideline_summary">가이드라인 색상을 설정하세요</string>
+    <string name="dialog_color_picker_guideline_text">가이드라인 텍스트</string>
+    <string name="dialog_color_picker_guideline_text_summary">가이드라인 텍스트 색을 설정하세요</string>
+    <string name="dialog_check_usage_access_message">이전앱, 최근실행패드, 현재어플정보를 사용하려면 아래 경로에서 OneSwipe 보안 체크를 해주세요\n 설정 > 보안 > 어플리케이션 사용정보 접근 > OneSwipe 체크</string>
+    <string name="dialog_check_notification_access_message">이전앱, 최근실행패드, 현재어플정보를 사용하려면 아래 경로에서 OneSwipe 보안 체크를 해주세요. \n 설정 > 보안 > 어플리케이션 사용정보 접근 > OneSwipe 체크</string>
+    <string name="dialog_check_system_setting_write">시스템 설정 변경 권한이 필요합니다. OneSwipe에 체크해 주세요</string>
+    <string name="dialog_tutorial_1">가상화면에서 따라해 보세요!!</string>
+    <string name="dialog_tutorial_2">실행하는 방법을 배웠습니다!!</string>
+    <string name="dialog_tutorial_3">메뉴 여는 방법을 배웠습니다!!</string>
+    <string name="dialog_update_message">업데이트가 있습니다\nOneSwipe가 마음에 들면 별점 5점 주세요 :)\n일인개발자에게 힘이 됩니다.\n별점은 무료버전 유지되는데 도움 됩니다!!</string>
+
+    <string name="press_color_to_apply">색 선택후 적용 하세요</string>
+    <string name="loading">로딩...</string>
+
+    <!-- Lock -->
+
+    <string name="failed">Failed</string>
+    <string name="pmsg_min_wired_dots">Minimum wired dots: %1$,d</string>
+    <string name="pmsg_max_tries_allowed">Maximum tries: %1$,d</string>
+
+    <!-- Guide Line -->
+    <string name="guide_default">플릭 터쳐</string>
+    <string name="guide_gesture_up">위</string>
+    <string name="guide_gesture_down">아래</string>
+    <string name="guide_gesture_left">왼쪽</string>
+    <string name="guide_gesture_right">오른쪽</string>
+    <string name="guide_gesture_up_left">UP_LEFT</string>
+    <string name="guide_gesture_up_right">UP_RIGHT</string>
+    <string name="guide_gesture_down_left">DOWN_LEFT</string>
+    <string name="guide_gesture_down_right">DOWN_RIGHT</string>
+    <string name="guide_gesture_left_up">LEFT_UP</string>
+    <string name="guide_gesture_left_down">LEFT_DOWN</string>
+    <string name="guide_gesture_right_up">RIGHT_UP</string>
+    <string name="guide_gesture_right_down">RIGHT_DOWN</string>
+    <string name="guide_gesture_none">NONE</string>
+    <string name="guide_todo_touch_and_drag">비어있는 공간을 롱터치 하세요</string>
+
+    <!-- ACRA -->
+    <string name="crash_toast_text">앗! 이런ㅠㅠ 앱에서 에러 발생했네요 에러내용을 개발자에게 보내주시면 발빠르게 수정 하겠습니다!</string>
+    <string name="crash_dialog_title">개발자에게 로그 보내기</string>
+    <string name="crash_dialog_text">예기치 않은 에러로 어플리케이션을 강제로 종료합니다. 에러 데이터를 보내주셔서 개발자가 이 에러를 빨리 수정 할수 있도록 도와주세요.
+</string>
+    <string name="crash_dialog_comment_prompt">어떤 경로에서 발생했는지 알려주시면 도움이 됩니다</string>
+    <string name="crash_dialog_ok_toast">감사합니다</string>
+    <string name="dialog_experience_folder">라이트 버전 이용자는 폴더 한번만 만들 수 있습니다.</string>
+    <string name="dialog_experience_shortcut">라이트 버전 이용자는 바로가기 한번만 만들 수 있습니다.</string>
+    <string name="dialog_experience_widget">라이트 버전 이용자는 위젯 한번만 만들 수 있습니다.</string>
+    <string name="dialog_lite_version">현재 라이트 버전입니다. 프리미엄 버전으로 업그래이드 하시면 모든 기능을 이용할 수 있습니다.</string>
+    <string name="dialog_areyoushare">정말로 진행할까요?</string>
+    <string name="dialog_areyousure_delete">정말로 삭제합니까?</string>
+    <string name="dialog_areyousure_overwrite">덮어 씌울까요??</string>
+    <string name="dialog_areyousure_overwrite_as_this_app">%s 앱 등록합니다\n덮어 씌울까요?</string>
+    <string name="dialog_howtouse_title">사용법</string>
+    <string name="dialog_howtouse_message">처음 이용하시는 분들을 위해!\n사용법을 동영상으로 간단하게 배워 볼까요? :)</string>
+    <string name="dialog_update_title">업데이트는 계속 됩니다!</string>
+    <string name="dialog_update_list">
+[v1.1.20151024]\n
+- FIX : 어플명 변경 - 누군가 바이러스 심어서 제 어플 이름으로 유포했네요ㅠ 어쩔수 없이 바꿉니다ㅠ
+[v1.1.19]\n
+- NEW : Assist 기능 추가(홈롱키시 동작)\n
+[v1.1.19]\n
+- NEW : Assist 기능 추가(홈롱키시 동작)\n
+[v1.1.18]\n
+- NEW : 테마 추가\n
+[v1.1.16]\n
+- FIX : 앱 이름 변경\n
+- NEW : 검색키로 실행기능 추가\n
+[v1.1.15]\n
+- FIX : 트리거 영역 설정 오류\n
+- NEW : 패드 사이드 조절 기능\n
+- NEW : Google Analytics\n
+[v1.1.13]\n
+- FIX : 앱전환 에러 수정(LOLLIPOP)\n
+[v1.1.12]\n
+- FIX : 앱 리스트 에러 수정\n
+[v1.1.11]\n
+- FIX : 트리거 영역 위치 에러 수정\n
+[v1.1.9]\n
+- NEW : Interaction (laboratory)\n
+- NEW : Dynamic pad option (laboratory)\n
+[v1.1.8]\n
+- NEW : Interaction : swipe and up \n
+- FIX : bitmap recycle error \n
+[v1.1.7]\n
+- FIX : 성능개선 \n
+[v1.1.6]\n
+ - FIX : 메모리릭 \n
+[v1.1.5]\n
+ - NEW : 5x5 패드(프리미엄 버전) \n
+ - NEW : 갤럭시 노트(팝업윈도우 지원)\n
+[v1.1.4]\n
+ - FIX : Minor bug fix \n
+[v1.1.2]\n
+ - FIX : 롤리팝 지원 업데이트 \n
+[v1.1.1]\n
+ - FIX : 롤리팝 지원 업데이트 \n
+[v1.0.28]\n
+ - FIX : 이동기능 개선 \n
+ - NEW : 튜토리얼 추가 \n
+ - NEW : 어플명 변경 (빠른실행 -> OneSwipe) \n
+[v1.0.26]\n
+ - NEW : Tools > FlashLight \n
+ - NEW : Tools > Wi-Fi \n
+ - NEW : Tools > Media Volume Up \n
+ - NEW : Tools > Media Volume Down \n
+ - NEW : Tools > Screen Rotation \n
+ - NEW : Tools > Bluetooth \n
+ - NEW : Tools > Airplane \n
+ - NEW : Tools > Back Button \n
+ - NEW : Tools > Media Play \n
+ - NEW : Tools > Media Pause \n
+ - NEW : Tools > Media Prev \n
+ - NEW : Tools > Media Next \n
+ - NEW : Tools > Media Stop \n
+[v1.0.25]\n
+ - FIX : 애니메이션 효과개선 \n
+[v1.0.24]\n
+ - NEW : Clock View (트리거 영역을 롱프레스 하세요) \n
+[v1.0.21]\n
+ - FIX : 다이나믹 도구 버그 \n
+[v1.0.20]\n
+ - NEW : 페이스북 좋아요 \n
+[v1.0.17]\n
+ - NEW : 시크릿 폴더\n
+[v1.0.16]\n
+ - FIX : 제스처 기능\n
+[v1.0.15]\n
+ - NEW : 이전앱 도구 추가\n
+[v1.0.13]\n
+ - NEW : 다이나믹 실행목록 도구 추가\n
+[v1.0.11]\n
+ - NEW : 빠른파일열기 (이미지, 오디오, 비디오)\n
+ </string>
+    <string name="dialog_yes">예</string>
+    <string name="dialog_later">나중에</string>
+    <string name="dialog_no">아니오</string>
+    <string name="dialog_update_rate">업데이트/별점주기</string>
+
+    <!-- passwd dialog -->
+    <string name="developer_options">Developer options</string>
+    <string name="password_dev_settings_request">Need to password</string>
+    <string name="password_dev_settings_set_label">Enter password</string>
+    <string name="password_dev_settings_show_checkbox">Show password</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_basic"> OneSwipe은 빠른방법으로 원하는 기능을 제공합니다.\n어떤 상황이든지 바로 실행 할 수 있습니다. </string>
+    <string name="tutorial_basic_direction">기본 사용방법</string>
+    <string name="tutorial_basic_1">1. 화면에서 미리 설정된 부분을 터치하여 드래그 합니다.</string>
+    <string name="tutorial_basic_2">2. 일정 영역 이상 드래그 후 손가락을 떼면 패드가 나타납니다.</string>
+    <string name="tutorial_basic_3">3. 패드에 롱터치 하여 원하는 기능을 추가해 실행할 수 있습니다.</string>
+    <string name="tutorial_feature">특징</string>
+    <string name="tutorial_feature_1">어플리케이션 실행</string>
+    <string name="tutorial_feature_2">바로가기</string>ㄷ
+    <string name="tutorial_feature_3">위젯</string>
+    <string name="tutorial_button_video_guide">영상으로 배우기</string>
+    <string name="tutorial_button_finish">끝내기</string>
+
+    <!-- popup menu -->
+    <string name="options">옵션</string>
+
+    <string name="tutorial_trying_swiping_to_the_bottom">지정된 위치에서 아래로 내려주세요</string>
+    <string name="tutorial_long_press_and_add_dynamic">롱터치 하여 최근실행 패드 등록해 보세요.</string>
+    <string name="tutorial_touch_dynamic_item">최근실행 패드 아이탬을 터치해 보세요. 멀티테스킹에 큰 도움이 됩니다.</string>
+    <string name="tutorial_touch_empty_item">비어있는 아이템을 터치하면 뒤로 갑니다.</string>
+    <string name="tutorial_long_press_and_add_applications">롱터치 하여 어플리케이션을 등록해 보세요</string>
+    <string name="tutorial_touch_tool_pad">이미 만들어진 툴을 한번 볼까요?</string>
+    <string name="tutorial_touch_outside">패드 바깥 부분도 마찬가지로 뒤로 이동합니다.</string>
+    <string name="tutorial_learn_from_your_actions">따라하면서 배워볼까요?</string>
+    <string name="need_to_at_least_one">적어도 하나 이상의 앱을 선택해야 합니다.</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="apps">어플리케이션</string>
+    <string name="contacts">연락처</string>
+    <string name="there_is_no_permission_to_read_contacts">연락처를 불러올 권한이 없습니다.</string>
+    <string name="there_is_no_permission_to_use_tools">도구를 사용할 권한이 없습니다.</string>
+    <string name="request">요청</string>
+    <string name="no_contacts">NO CONTACTS</string>
+    <string name="it_supports_up_to_five_applications">It supports up to five applications</string>
+    <string name="tools">도구</string>
+    <string name="new_version_available">새 버전이 있습니다. 지금 업데이트 하세요</string>
+    <string name="need_to_draw_overlay">사용중인 다른 앱 위에 패드가 표시되도록 허용해야 합니다.</string>
+    <string name="freed_memoey">%d MB 램 확보</string>
+    <string name="freed_memoey_already">이미 최적화 됐습니다</string>
+    <string name="remakeplease">에러 : 다시 생성해 주세요</string>
+    <string name="file"></string>
+
+    <string name="tutorial_step_1">배워보기 1단계</string>
+    <string name="tutorial_step_2">배워보기 2단계</string>
+
+    <string name="welcom_head_01">시작하세요!!</string>
+    <string name="welcom_content_01">환영합니다.</string>
+    <string name="welcom_head_02">즐겨찾기</string>
+    <string name="welcom_content_02">자주쓰는 앱으로 빠르게 전환하세요</string>
+    <string name="welcom_head_03">도구</string>
+    <string name="welcom_content_03">토글세팅, 홈키, Back키</string>
+    <string name="welcom_head_04">다이렉트 콜</string>
+    <string name="welcom_content_04">등록한 연락처에 바로 전화를 거세요</string>
+    <string name="welcom_head_05">따라하기 : 앱 실행</string>
+    <string name="welcom_head_06">따라하기 : 메뉴 열기</string>
+    <string name="welcom_head_06_2">잘했습니다!!</string>
+    <string name="welcom_content_05">빨간원을 터치후 드래그 하세요</string>
+    <string name="welcom_content_05_1">Youtube 아이콘에서 손을 떼세요</string>
+    <string name="welcom_content_06">빨간원을 터치후 드래그 하세요</string>
+    <string name="welcom_content_06_1">Youtube 아이콘에서 2초 머무른 후 손을 떼세요</string>
+    <string name="welcom_content_06_2">OneSwipe를 시작하세요!</string>
+    <string name="welcom_content_06_3">2초 기다려주세요!</string>
+    <string name="welcom_content_06_4">이제 손을 떼세요!</string>
+    <string name="tutorial">튜토리얼</string>
+    <string name="start">시작하기</string>
+    <string name="need_to_finish_tutorial">튜토리얼까지 완료해야 이용할 수 있습니다.</string>
+
+    <string name="notification_screen_overlay_on_off">화면 오버레이 OFF</string>
+
+
+</resources>

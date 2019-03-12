@@ -1,0 +1,11 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeNotificationStateChanged"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="false"
+    android:description="@string/toast_accessibility_message_detail"
+    android:packageNames="com.philleeran.flicktoucher" />
+
+
+    <!-- android:accessibilityFeedbackType="feedbackSpoken"
+
+    -->

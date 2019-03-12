@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    tools:context=".LaunchItemDialogActivity">
+
+    <RelativeLayout
+        android:id="@+id/icon_layout"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_centerVertical="true"
+        >
+
+        <ImageView
+            android:id="@+id/photo_view"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_add_24dp"
+            />
+
+        <ImageView
+            android:id="@+id/check_image_view"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/checked34"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@id/icon_layout"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/display_name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="display name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

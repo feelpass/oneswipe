@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0f9d58"
+    android:clipChildren="false"
+    tools:context=".view.tutorial.Tutorial2Activity">
+
+    <TextView
+        android:id="@+id/turorial"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/heading"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/heading"
+        android:layout_marginTop="37dp"
+        android:text="@string/welcom_head_05"
+        android:textColor="@android:color/white"
+        android:textSize="34dp" />
+
+    <FrameLayout
+        android:id="@+id/images"
+
+        android:layout_width="@dimen/welcome_images_size"
+        android:layout_height="@dimen/welcome_images_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/welcome_images_margin_top"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/welcome_tutorial_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tutorial_1_1" />
+
+        <ImageView
+            android:id="@+id/image_round"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@id/welcome_tutorial_main"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@id/welcome_tutorial_main"
+            android:layout_gravity="right|top"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/drag_image_round" />
+
+        <ImageView
+            android:id="@+id/image_arrow"
+            android:layout_width="220dp"
+            android:layout_height="90dp"
+            android:layout_alignEnd="@id/welcome_tutorial_main"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@id/welcome_tutorial_main"
+            android:layout_gravity="right|top"
+            android:layout_marginEnd="54dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="60dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/drag_image_arrow_" />
+
+        <ImageView
+            android:id="@+id/welcome_tutorial_main_next"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/welcome_tutorial_main"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/welcome_tutorial_main"
+            android:layout_gravity="right|top"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="210dp"
+            android:layout_marginTop="138dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/drag_image_round"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/welcome_tutorial_menu"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_alignEnd="@+id/welcome_tutorial_main"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/welcome_tutorial_main"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tutorial_3"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/images"
+        android:layout_below="@+id/images"
+        android:layout_marginLeft="@dimen/welcome_text_margin"
+        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:layout_marginTop="24dp"
+        android:text="@string/welcom_content_05"
+        android:textAppearance="@style/WelcomeHeadingAppearance" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:minWidth="300dp"
+        android:text="@string/start"
+        android:textSize="30dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:minWidth="70dp"
+        android:text="@string/skip"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+
+
+</RelativeLayout>

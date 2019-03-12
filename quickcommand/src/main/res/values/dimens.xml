@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_bar_switch_padding">12dp</dimen>
+
+    <!-- pad grid item-->
+
+    <dimen name="pad_grid_item_size">64dp</dimen>
+    <dimen name="pad_grid_item_background_size">48dp</dimen>
+    <dimen name="pad_grid_item_background_margin_size">8dp</dimen>
+    <dimen name="pad_grid_item_icon_size">48dp</dimen>
+    <dimen name="pad_grid_item_icon_margin_size">8dp</dimen>
+
+    <dimen name="pad_grid_item_size_small">32dp</dimen>
+    <dimen name="pad_grid_item_background_size_small">32dp</dimen>
+    <dimen name="pad_grid_item_background_margin_size_small">0dp</dimen>
+    <dimen name="pad_grid_item_icon_size_small">32dp</dimen>
+    <dimen name="pad_grid_item_icon_margin_size_small">0dp</dimen>
+
+
+
+    
+    <!-- Lock -->
+    <dimen name="control_margin">3dp</dimen>
+    <dimen name="progress_bar_width">290dp</dimen>
+    
+    
+    
+    
+    
+    
+    <!--  GrowPad -->
+     <!-- Size of alarm alert outer ring. -->
+    <dimen name="glowpadview_outerring_diameter">270dip</dimen>
+
+    <!-- Default target placement radius for GlowPadView. Should be 1/2 of outerring diameter. -->
+    <dimen name="glowpadview_target_placement_radius">135dip</dimen>
+
+    <!-- Default glow radius for GlowPadView -->
+    <dimen name="glowpadview_glow_radius">75dip</dimen>
+
+    <!-- Default distance beyond which GlowPadView snaps to the matching target -->
+    <dimen name="glowpadview_snap_margin">40dip</dimen>
+
+    <!-- Default distance from each snap target that GlowPadView considers a "hit" -->
+    <dimen name="glowpadview_inner_radius">15dip</dimen>
+    <dimen name="glowpadview_margin_bottom">-64dip</dimen>
+    <dimen name="glowpadview_margin_right">0dip</dimen>
+
+
+    <dimen name="showcase_radius">24dp</dimen>
+    <dimen name="showcase_radius_inner">10dp</dimen>
+    <dimen name="showcase_radius_outer">20dp</dimen>
+
+
+    <!--Welcome sliding page  -->
+    <dimen name="welcome_images_size">360.0dip</dimen>
+    <dimen name="welcome_images_margin_top">100dip</dimen>
+    <dimen name="welcome_heading_margin_bottom">12.0dip</dimen>
+    <dimen name="welcome_text_margin">48.0dip</dimen>
+    <dimen name="welcome_heading">24.0sp</dimen>
+    <dimen name="welcome_text_margin_bottom">12.0dip</dimen>
+    <dimen name="welcome_content_min_height">96.0dip</dimen>
+    <dimen name="welcome_content">16.0sp</dimen>
+
+    
+</resources>

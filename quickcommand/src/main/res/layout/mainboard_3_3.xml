@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="192dp"
+    android:layout_height="192dp"
+    android:focusable="true"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:id="@+id/gridview_layout"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:layout_alignParentTop="true" >
+
+        <com.philleeran.flicktoucher.view.pad.DragDropGridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:horizontalSpacing="0dp"
+            android:fadingEdge="horizontal|vertical"
+            android:numColumns="3"
+            android:verticalSpacing="0dp"
+            android:listSelector="@android:color/transparent"
+
+            >
+        </com.philleeran.flicktoucher.view.pad.DragDropGridView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/gridview_background"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/gridview_background_launcher"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout>

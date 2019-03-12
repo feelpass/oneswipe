@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="key_category_version"
+        android:title="@string/settings_title_manage_data" >
+        <Preference
+            android:key="key_clear_data"
+            android:persistent="false"
+            android:title="@string/settings_title_clear_data" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="key_category_version"
+        android:title="@string/settings_title_version" >
+        <Preference
+            android:key="key_version"
+            android:persistent="false"
+            android:title="@string/settings_title_oneswipe_version" />
+    </PreferenceCategory>
+</PreferenceScreen>

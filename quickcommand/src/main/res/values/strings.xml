@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OneSwipe</string>
+    <string name="apk_is_broken">This apk is broken.\n You must install at google play store!!</string>
+    <string name="app_name_premium">One Swipe premium</string>
+    <string name="app_name_lite">One Swipe lite</string>
+    <string name="nofification_text">Running. Touch for settings</string>
+    <string name="activity_title_settings">One Swipe Beta</string>
+    <string name="activity_title_developer_settings">Developer Settings</string>
+    <string name="activity_title_settings_trigger_area">Trigger areas</string>
+    <string name="activity_title_settings_theme">Theme</string>
+    <string name="activity_title_settings_gesture">Gesture</string>
+    <string name="activity_title_tutorial">Tutorial - Basic</string>
+    <string name="action_settings">Settings</string>
+    <string name="notification_text_trigger_area_disabled">Touch to start Trigger area detection!</string>
+    <string name="notification_title_trigger_area_enabled">One Swipe enabled</string>
+    <string name="toast_trigger_area_detect_enabled">Trigger area Detect Enabled!!</string>
+    <string name="toast_trigger_area_detect_disable">Trigger area Detect Disabled!!</string>
+    <string name="toast_diable_at_dock">Can not make folder at dock</string>
+    <string name="toast_premium">PREMIUM VERSION</string>
+    <string name="toast_pattern_fail">unlock fail</string>
+    <string name="toast_lite">LITE VERSION</string>
+    <string name="toast_invalid_file">invalid file</string>
+    <string name="toast_have_to_pattern">Make your new unlock pattern</string>
+    <string name="toast_add_item_first">Please add items before analysis</string>
+    <string name="toast_not_available_dock">You can not create folder at here</string>
+    <string name="toast_not_found">The application can not be found. Launch Google Play</string>
+    <string name="toast_drag_help">Drag and Drop!, If you have finished editing, touch the outer part of the pad</string>
+    <string name="toast_drag_finish">Finished Editing</string>
+    <string name="toast_not_found_launchinfo">Can not found current application\'s launch Info</string>
+    <string name="toast_media_volume_set">Media volume : %d/15</string>
+    <string name="toast_accessibility_message">Please turn ON "One Swipe" service from "setting > Accessibility Options."</string>
+    <string name="toast_accessibility_message_detail">"In order to use Back button, Home, Indicator, recentApps. Please turn ON "One Swipe" service.</string>
+    <string name="toast_message_back_again">Please touch BACK again to exit</string>
+
+    <string name="count">Launch count</string>
+    <string name="order_by_launchcount">order by launch count</string>
+    <string name="order_by_created">order by created</string>
+    <string name="order_by_type">order by type</string>
+    <string name="menu_applist_reload">Refresh application list</string>
+    <string name="format_since_justnow">just now</string>
+    <string name="format_since_minutes">minutes ago</string>
+    <string name="format_since_hours">hours ago</string>
+    <string name="format_since_days">days ago</string>
+    <string name="format_since_months">months ago</string>
+    <string name="format_since_years">years ago</string>
+    <string name="format_since_minute">minute ago</string>
+    <string name="format_since_hour">hour ago</string>
+    <string name="format_since_day">day ago</string>
+    <string name="format_since_month">month ago</string>
+    <string name="format_since_year">year ago</string>
+    <string name="apply">Apply</string>
+    <string name="rotate">Rotate</string>
+    <string name="pinlock_title">Set backup PIN</string>
+    <string name="pinlock_sentence">If you forget your pattern, you can enter your backup PIN to unlock</string>
+    <string name="pinlock_title_at_least">PIN must contain at least 4 numbers</string>
+    <string name="pinlock_title_tap_ok">Tap Continue when finished</string>
+    <string name="pinlock_title_confirm">Confirm PIN</string>
+    <string name="pinlock_title_confirm_5fail">Fail to match 5 times. Confirm PIN to record a new pattern.</string>
+    <string name="pinlock_title_not_match">PINs do not match.</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_select">Select</string>
+
+    <!-- Preference Settings -->
+    <string name="pref_category_basic">Basic</string>
+    <string name="pref_category_data">Data</string>
+    <string name="pref_category_style">Style and Animation</string>
+    <string name="pref_category_translations">Translations</string>
+    <string name="pref_category_style_summary_animation_enabled">Animation enabled</string>
+    <string name="pref_category_style_summary_animation_disabled">Animation disabled</string>
+    <string name="pref_category_style_summary_gesture_enabled">Gesture enabled</string>
+    <string name="pref_category_style_summary_gesture_disabled">Gesture disabled</string>
+    <string name="pref_category_style_summary_statusinfo_enabled">StatusInfo enabled</string>
+    <string name="pref_category_style_summary_statusinfo_disabled">StatusInfo disabled</string>
+    <string name="pref_category_style_summary_show_title_enabled">Show Icon Name enabled</string>
+    <string name="pref_category_style_summary_show_title_disabled">Show Icon Name disabled</string>
+    <string name="pref_category_feature">Buy</string>
+    <string name="pref_category_etc">ETC</string>
+    <string name="pref_category_analysis">Analysis</string>
+    <string name="pref_title_default">Set default colors and background image</string>
+    <string name="pref_title_animation">Animation</string>
+    <string name="pref_title_gesture">Gesture</string>
+    <string name="pref_title_statusinfo">Status info</string>
+    <string name="pref_title_show_title">Show Icon Name in pad</string>
+    <string name="pref_haptic_title">Haptic effect</string>
+    <string name="pref_haptic_summary">Vibration when you touch the Trigger area</string>
+    <string name="pref_trigger_visible">Trigger Area Visibility</string>
+    <string name="pref_trigger_visible_summary">Set Trigger Area Visibility</string>
+    <string name="pref_title_buy">Upgrade to One Swipe Premium</string>
+    <string name="pref_title_buy_summary">Remove all ads in this app</string>
+    <string name="pref_title_how_to_use">How to use One Swipe</string>
+    <string name="pref_title_how_to_use_summary">User guide for One Swipe</string>
+    <string name="pref_title_translate_help_quickswipe">Translate One Swipe</string>
+    <string name="pref_title_translate_help_quickswipe_summary">Please help us translate One Swipe into your language \nPlease contact us by e-mail</string>
+    <string name="pref_title_translate_thanks">Thanks to</string>
+    <string name="pref_title_translate_thanks_summary">Thanks to these kind people who helped us localize One Swipe</string>
+    <string name="pref_title_registered_items">Registered items(App, Shortcut, Widget)</string>
+    <string name="pref_title_registered_items_summary">Show your added items</string>
+    <string name="pref_title_rate">Rate us 5 stars</string>
+    <string name="pref_title_rate_summary">If you like OneSwipe, rate us 5 stars :)</string>
+    <string name="pref_title_like_facebook">Like on Facebook</string>
+    <string name="pref_title_like_facebook_summary">Get the news about One Swipe</string>
+    <string name="pref_title_feedback">Feedback</string>
+    <string name="pref_title_feedback_summary">Feedback to developers (e-mail)</string>
+    <string name="pref_title_share">Share us</string>
+    <string name="pref_title_share_summary">Tell your friends you like this App</string>
+    <string name="pref_title_share_message">\n\n   Let me recommend you One Swipe Application.   \n\n</string>
+    <string name="pref_title_share_by_context">\n\n   Let me recommend you this app.   \n\n</string>
+    <string name="pref_title_share_from_quickswipe">\n\n   Shared from One Swipe   \n\n</string>
+    <string name="pref_title_pad_size">Pad size</string>
+    <string name="pref_title_pad_size_summary">4x4</string>
+    <string name="pref_title_pad_dynamic_pad_option">Dynamic pad option (laboratory)</string>
+    <string name="pref_title_pad_dynamic_pad_option_summary_none">long press option on dynamic pad</string>
+    <string name="pref_title_pad_dynamic_pad_option_summary_penwindow">pen window (galaxy note)</string>
+    <string name="pref_title_pad_dynamic_pad_option_summary_forceclose">force close (root)</string>
+    <string name="pref_title_pad_interaction">Interaction (laboratory)</string>
+    <string name="pref_title_pad_interaction_summary_swipe_and_touch">swipe and touch</string>
+    <string name="pref_title_pad_interaction_summary_swipe_and_up">swipe and up</string>
+    <string name="pref_title_tutorial">Tutorial</string>
+
+
+    <string name="pref_booster">Memory Booster</string>
+    <string name="pref_title_share_chooseone">Choose one</string>
+    <string name="pref_trigger_area_title">Trigger areas</string>
+    <string name="pref_trigger_area_summary">Where on screen to swipe from</string>
+    <string name="pref_version_title">Version</string>
+    <string name="pref_version_summary">1.0.0</string>
+    <string name="pref_lock_create_title">Pattern lock</string>
+    <string name="pref_lock_create_summary_created">pattern created</string>
+    <string name="pref_lock_create_summary_not_created">pattern not created</string>
+    <string name="pref_gesture_title">Gesture</string>
+    <string name="pref_gesture_summary">Gesture and stay while 2 sec at pad for Gesture set</string>
+    <string name="pref_cropper_title">Background image</string>
+    <string name="pref_cropper_summary">Background image setting</string>
+    <string name="pref_theme_select_title">Theme</string>
+    <string name="pref_theme_select_summary">Theme select</string>
+    <string name="pref_data_app_list_cache_reset_title">Reset icons</string>
+    <string name="pref_data_app_list_cache_reset_summary">Reload all app icons from the system</string>
+    <string name="pref_booster_apps_excluded_while_boosting_title">Apps excluded while boosting</string>
+    <string name="pref_vibration_level_title">Vibration Level</string>
+    <string name="pref_animation_duration_level_title">Animation Duration</string>
+    <string name="settings_gesture_type_killprocess">Kill Application</string>
+    <string name="settings_gesture_type_context">Context</string>
+    <string name="settings_gesture_type_back">Back</string>
+    <string name="settings_gesture_type_close">Close</string>
+    <string name="settings_gesture_type_launch">Launch</string>
+    <string name="settings_gesture_type_recentapplication">Recent Application</string>
+    <string name="settings_gesture_type_home">Home</string>
+    <string name="settings_gesture_type_indicator">Indicator</string>
+    <string name="settings_gesture_type_appinfo">Application Info</string>
+    <string name="settings_gesture_type_padsettings">Pad Settings</string>
+    <string name="settings_gesture_type_trigger_area_detect_disable">Disable Trigger area Detection</string>
+    <string name="settings_function_type_home">Home</string>
+    <string name="settings_function_type_booster">Memory Booster</string>
+    <string name="settings_function_type_indicator">Indicator</string>
+    <string name="settings_function_type_recentapplication">Recent Application</string>
+    <string name="settings_function_type_lastapp">Last Application (Alt+Tab)</string>
+    <string name="settings_function_type_recentapplication_onpad">Dynamic Recent Apps</string>
+    <string name="settings_function_type_flashonoff">Flash Light</string>
+    <string name="settings_function_type_context">Current App Info</string>
+    <string name="settings_function_type_close">Close</string>
+    <string name="settings_function_type_padsettings">Pad Settings</string>
+    <string name="settings_function_type_trigger_area_detect_disable">Disable Trigger area Detection</string>
+    <string name="settings_function_type_all_applications">All applications</string>
+    <string name="settings_function_type_gps">GPS</string>
+    <string name="settings_function_type_wifi">Wi-Fi ON/OFF</string>
+    <string name="settings_function_type_volume_up">Media Volume Up</string>
+    <string name="settings_function_type_volume_down">Media Volume Down</string>
+    <string name="settings_function_type_media_play">Media Play</string>
+    <string name="settings_function_type_media_pause">Media Pause</string>
+    <string name="settings_function_type_media_prev">Media Prev</string>
+    <string name="settings_function_type_media_next">Media Next</string>
+    <string name="settings_function_type_media_stop">Media Stop</string>
+    <string name="settings_function_type_ringmode">Ring Mode</string>
+    <string name="settings_function_type_airplane">Airplane</string>
+    <string name="settings_function_type_displaybright">Display Bright</string>
+    <string name="settings_function_type_rotation">Screen Rotation</string>
+    <string name="settings_function_type_bluetooth">Bluetooth</string>
+    <string name="settings_function_type_battery">Battery</string>
+    <string name="settings_function_type_clearmemory">Clear Memory</string>
+    <string name="settings_function_type_menubutton">Menu Button</string>
+    <string name="settings_function_type_backbutton">Back Button</string>
+    <string name="settings_function_type_autosync">Auto Sync</string>
+    <string name="settings_function_type_displaysleep">Display Sleep</string>
+    <string name="settings_function_type_lockenable">Lock Enable</string>
+    <string name="pref_trigger_area_title_top_left_corner">Top left corner</string>
+    <string name="pref_trigger_area_title_top_right_corner">Top right corner</string>
+    <string name="pref_trigger_area_title_left_edge_upper_half">Left edge (upper half)</string>
+    <string name="pref_trigger_area_title_right_edge_upper_half">Right edge (upper half)</string>
+    <string name="pref_trigger_area_title_left_edge_lower_half">Left edge (lower half)</string>
+    <string name="pref_trigger_area_title_right_edge_lower_half">Right edge (lower half)</string>
+    <string name="pref_trigger_area_title_bottom_left_corner">Bottom left corner</string>
+    <string name="pref_trigger_area_title_bottom_right_corner">Bottom right corner</string>
+    <string name="pref_trigger_area_title_bottom_left">Bottom left</string>
+    <string name="pref_trigger_area_title_bottom_right">Bottom right</string>
+    <string name="pref_trigger_area_title_bottom_edge">Bottom edge</string>
+    <string name="pref_trigger_area_sharedpref_top_left_corner">top.left.corner</string>
+    <string name="pref_trigger_area_sharedpref_top_right_corner">top.right.corner</string>
+    <string name="pref_trigger_area_sharedpref_left_edge_upper_half">left.edge.upper.half</string>
+    <string name="pref_trigger_area_sharedpref_right_edge_upper_half">right.edge.upper.half</string>
+    <string name="pref_trigger_area_sharedpref_left_edge_lower_half">left.edge.lower.half</string>
+    <string name="pref_trigger_area_sharedpref_right_edge_lower_half">right.edge.lower.half</string>
+    <string name="pref_trigger_area_sharedpref_bottom_left_corner">bottom.left.corner</string>
+    <string name="pref_trigger_area_sharedpref_bottom_right_corner">bottom.right.corner</string>
+    <string name="pref_trigger_area_sharedpref_bottom_left">bottom.left</string>
+    <string name="pref_trigger_area_sharedpref_bottom_right">bottom.right</string>
+    <string name="pref_trigger_area_sharedpref_bottom_edge">bottom.edge</string>
+    <string name="pref_gesture_up">UP</string>
+    <string name="pref_gesture_down">DOWN</string>
+    <string name="pref_gesture_left">LEFT</string>
+    <string name="pref_gesture_right">RIGHT</string>
+    <string name="popupmenu_add">Add / Change</string>
+    <string name="popupmenu_move">Move</string>
+    <string name="popupmenu_rename">Rename</string>
+    <string name="popupmenu_delete">Delete</string>
+    <string name="popupmenu_penwindow">Pen Window(if possible)</string>
+    <string name="popupmenu_text">Text</string>
+    <string name="popupmenu_image">Quick File Open : Image</string>
+    <string name="popupmenu_audio">Quick File Open : Audio</string>
+    <string name="popupmenu_video">Quick File Open : Video</string>
+    <string name="add_link_list_applications">App/Contacts/Tools/Shortcuts</string>
+    <string name="add_link_list_application">Application</string>
+    <string name="add_link_list_shortcut">Shortcut</string>
+    <string name="add_link_list_group">Folder</string>
+    <string name="add_link_list_tools">Tool</string>
+    <string name="add_link_list_group_secret">Secret folder</string>
+    <string name="add_link_list_widget">Widget</string>
+    <string name="add_link_list_home">Home</string>
+    <string name="add_link_list_toggle_indicator">Indicator</string>
+    <string name="add_link_list_recentapps">Recent applications</string>
+    <string name="add_link_list_context">Context</string>
+    <string name="add_link_list_remove">Remove</string>
+    <string name="add_link_list_dragdrop">Icon Move</string>
+    <string name="add_link_list_quickcall">Quick Call</string>
+    <string name="add_link_list_settings">Settings</string>
+    <string name="add_link_list_fileopen">Quick File Open</string>
+    <string name="add_link_list_currentapp">Current Application</string>
+    <string name="add_link_list_notificationpad">Notification Pad</string>
+    <string name="context_list_googleplay">Google Play</string>
+    <string name="context_list_applicationinfo">Application Info</string>
+    <string name="context_list_forcestop">Force Stop</string>
+    <string name="context_list_delete">Delete Application</string>
+    <string name="context_list_share">Share</string>
+    <string name="unnamed_folder"></string>
+
+    <!-- Color picker -->
+    <string name="dialog_color_picker">Pick a color</string>
+    <string name="dialog_color_picker_background">Background color</string>
+    <string name="dialog_color_picker_background_summary">Define background color</string>
+    <string name="dialog_color_picker_pad_background">Pad background color</string>
+    <string name="dialog_color_picker_pad_background_summary">Define pad background color</string>
+    <string name="dialog_color_picker_guideline">Guideline color</string>
+    <string name="dialog_color_picker_guideline_summary">Define guide line color</string>
+    <string name="dialog_color_picker_guideline_text">Guideline text color</string>
+    <string name="dialog_color_picker_guideline_text_summary">Define guide line text color</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="loading">Loading...</string>
+
+    <!-- Lock -->
+
+    <string name="failed">Failed</string>
+    <string name="pmsg_min_wired_dots">Minimum wired dots: %1$,d</string>
+    <string name="pmsg_max_tries_allowed">Maximum tries: %1$,d</string>
+
+    <!-- Guide Line -->
+    <string name="guide_default">One Swipe</string>
+    <string name="guide_gesture_up">UP</string>
+    <string name="guide_gesture_down">DOWN</string>
+    <string name="guide_gesture_left">LEFT</string>
+    <string name="guide_gesture_right">RIGHT</string>
+    <string name="guide_gesture_up_left">UP_LEFT</string>
+    <string name="guide_gesture_up_right">UP_RIGHT</string>
+    <string name="guide_gesture_down_left">DOWN_LEFT</string>
+    <string name="guide_gesture_down_right">DOWN_RIGHT</string>
+    <string name="guide_gesture_left_up">LEFT_UP</string>
+    <string name="guide_gesture_left_down">LEFT_DOWN</string>
+    <string name="guide_gesture_right_up">RIGHT_UP</string>
+    <string name="guide_gesture_right_down">RIGHT_DOWN</string>
+    <string name="guide_gesture_none">NONE</string>
+    <string name="guide_todo_touch_and_drag">Long touch the empty space</string>
+
+    <!-- ACRA -->
+    <string name="crash_toast_text">Ooooops ! I crashed, but a report has been sent to my developer to help fix the issue !</string>
+    <string name="crash_dialog_title">CrashTest has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+    <string name="dialog_experience_folder">You can use 1 folder at lite version.</string>
+    <string name="dialog_experience_shortcut">You can use 1 Shortcut at lite version.</string>
+    <string name="dialog_experience_widget">You can use 1 Widget at lite version.</string>
+    <string name="dialog_lite_version">This is Lite version. Please upgrade Premium version \n If you upgrade premium, Then You can use all feature</string>
+    <string name="dialog_yes">yes</string>
+    <string name="dialog_update_rate">Update/Rate</string>
+    <string name="dialog_no">no</string>
+    <string name="dialog_later">later</string>
+    <string name="dialog_areyoushare">Are you sure?</string>
+    <string name="dialog_areyousure_delete">Are you sure?</string>
+    <string name="dialog_areyousure_overwrite">Overwrite?</string>
+    <string name="dialog_areyousure_overwrite_as_this_app">Add %s application. Overwrite?</string>
+    <string name="dialog_howtouse_title">How to use</string>
+    <string name="dialog_howtouse_message">Let\'s learn how to use it?</string>
+    <string name="dialog_update_title">Update List</string>
+    <string name="dialog_translations_thanks_to_message">We will be honored to have your name below. \n\n\nTurkish: Muharrem \nPolish: Tomasz Jaskow</string>
+    <string name="dialog_check_usage_access_message">If you want to use the LastApp, Recent Application or CurrentApp Info. Try blow \n Settings > Security > Usage access > Check One Swipe</string>
+    <string name="dialog_check_notification_access_message">If you want to use the LastApp, Recent Application or CurrentApp Info. Try blow \n Settings > Security > Notification access > Check One Swipe</string>
+    <string name="dialog_check_system_setting_write">Need to permission to change system settings. Check OneSwipe</string>
+
+    <string name="dialog_tutorial_1">It replaces your existing screen!!</string>
+    <string name="dialog_tutorial_2">You learned how to launch!!</string>
+    <string name="dialog_tutorial_3">You learned how to open the menu!!</string>
+    <string name="dialog_update_message">A new version is available. Update now?\nIf you like OneSwipe, rate us 5 stars :)\nIt make developer happy!!</string>
+
+
+    <string name="dialog_update_list">
+[v1.1.20151024]\n
+- FIX : Someone make another virus application that is named "Quick Swipe" so This application name is changed. Sorry\n
+[v1.1.19]\n
+- NEW : Assist interface (long press home key)\n
+[v1.1.18]\n
+- NEW : Theme\n
+[v1.1.12]\n
+- NEW : App list error\n
+[v1.1.9]\n
+- NEW : Interaction (laboratory)\n
+- NEW : Dynamic pad option (laboratory)\n
+[v1.1.8]\n
+- NEW : Interaction : swipe and up \n
+- FIX : bitmap recycle error \n
+[v1.1.7]\n
+- FIX : improve performance \n
+[v1.1.6]\n
+- FIX : memory leak \n
+[v1.1.5]\n
+ - NEW : 5x5 pad(premium version) \n
+ - NEW : popup window(galaxy note)\n
+[v1.1.4]\n
+- ADD : add 5x5 grid pad for premium version \n
+- ADD : popup-window for galaxy note\n
+[v1.1.4]\n
+- FIX : Minor bug fix\n
+[v1.1.2]\n
+ - FIX : Fix for Lollipop (dynamic application list, last application) \n
+[v1.1.1]\n
+ - FIX : Fix for Lollipop (dynamic application list, last application) \n
+[v1.0.26]\n
+ - NEW : Tools > FlashLight \n
+ - NEW : Tools > Wi-Fi \n
+ - NEW : Tools > Media Volume Up \n
+ - NEW : Tools > Media Volume Down \n
+ - NEW : Tools > Screen Rotation \n
+ - NEW : Tools > Bluetooth \n
+ - NEW : Tools > Airplane \n
+ - NEW : Tools > Back Button \n
+ - NEW : Tools > Media Play \n
+ - NEW : Tools > Media Pause \n
+ - NEW : Tools > Media Prev \n
+ - NEW : Tools > Media Next \n
+ - NEW : Tools > Media Stop \n
+[v1.0.24]\n
+ - NEW : Clock View (long press at Trigger area!) \n
+[v1.0.20]\n
+ - NEW : Like on Facebook \n
+[v1.0.17]\n
+ - NEW : secret folder\n
+[v1.0.16]\n
+ - Gesture function modified\n
+[v1.0.15]\n
+ - Added Goto Last App Tool!\n
+   Menu > Add > Tools > Last App.(Alt+Tab)\n
+   You can go last app by this item\n
+[v1.0.13]\n
+ - NEW : Added Dynamic Recent Applications Tool!\n
+   Add > Tools > Dynamic Recent Application\n
+   You can see recent application on pad\n
+[v1.0.11]\n
+ - NEW : Quick File Open (image, audio, video)\n
+</string>
+    <!-- passwd dialog -->
+    <string name="developer_options">Developer options</string>
+    <string name="password_dev_settings_request">Need to password</string>
+    <string name="password_dev_settings_set_label">Enter password</string>
+    <string name="password_dev_settings_show_checkbox">Show password</string>
+
+    <!-- Tutorial -->
+    <string name="tutorial_step_1">Tutorial Step 1</string>
+    <string name="tutorial_step_2">Tutorial Step 2</string>
+    <string name="tutorial_basic"> One Swipe provides quick solution to user\'s wants.\nIt can be activated in all situations. </string>
+    <string name="tutorial_basic_direction">Directions</string>
+    <string name="tutorial_basic_1">1. Touch the pre-set region of the screen and drag it.</string>
+    <string name="tutorial_basic_2">2. Release it after dragging it for certain distance will make a pad to pop up.</string>
+    <string name="tutorial_basic_3">3. Touch the pad for a period of time to add desired functions and launch it.</string>
+    <string name="tutorial_feature">Feature</string>
+    <string name="tutorial_feature_1">Launch an application</string>
+    <string name="tutorial_feature_2">Shortcut</string>
+    <string name="tutorial_feature_3">Widget</string>
+    <string name="tutorial_button_video_guide">Goto video guide</string>
+    <string name="tutorial_button_finish">finish</string>
+
+    <!-- popup menu -->
+    <string name="options">Options</string>
+
+    <!-- Cropper -->
+    <string name="title">Cropper</string>
+    <string name="fixedAspectRatio">fixedAspectRatio =</string>
+    <string name="aspectRatioX">\u002010</string>
+    <string name="aspectRatioXHeader">aspectRatioX =</string>
+    <string name="aspectRatioY">\u002010</string>
+    <string name="aspectRatioYHeader">aspectRatioY =</string>
+    <string name="showGuidelines">showGuidelines = </string>
+    <string name="crop">Crop</string>
+    <string name="croppedImageDesc">The cropped image.</string>
+
+    <string-array name="showGuidelinesArray">
+        <item>Off</item>
+        <item>On Touch</item>
+        <item>On</item>
+    </string-array>
+
+
+
+    <string name="tutorial_trying_swiping_to_the_bottom">Try swiping to the bottom.</string>
+    <string name="tutorial_long_press_and_add_dynamic">Long press and add a dynamic application item</string>
+    <string name="tutorial_touch_dynamic_item">Touch dynamic item. it help us multitasking</string>
+    <string name="tutorial_touch_empty_item">Touch empty item. It can go to back.</string>
+    <string name="tutorial_long_press_and_add_applications">Long press and add an application</string>
+    <string name="tutorial_touch_tool_pad">Touch tool pad (pre-set)</string>
+    <string name="tutorial_touch_outside">Touch outside. It can go to back.</string>
+    <string name="tutorial_learn_from_your_actions">Learns from your actions!</string>
+
+    <string name="dialog_settings_title_manage_data">Manage storage</string>
+    <string name="dialog_clear_user_data_text">Clear data</string>
+    <string name="dialog_clear_data_dlg_text">Clear All data.</string>
+    <string name="dialog_clear_dlg_ok">Clear</string>
+
+    <!-- hidden menu -->
+    <string name="settings_title_manage_data">Manage Data</string>
+    <string name="settings_title_clear_data">Clear data</string>
+    <string name="settings_title_version">Version</string>
+    <string name="settings_title_oneswipe_version">OneSwipe Version</string>
+    <string name="settings_title_developer">Developer</string>
+    <string name="settings_title_feature">Feature</string>
+    <string name="settings_title_developer_mode">Developer mode</string>
+    <string name="settings_title_developer_premium_mode">Premium mode</string>
+    <string name="settings_title_policy" translatable="false">Policy</string>
+    <string name="settings_title_policy_implicit_enable" translatable="false">Implicit Enable</string>
+    <string name="settings_title_feature_excludelist_enable" translatable="false">Exclude List Enable</string>
+    <string name="settings_title_policy_abuselist" translatable="false">Abuse List @SM</string>
+    <string name="settings_title_policy_excludelist_list" translatable="false">Exclude List</string>
+    <string name="settings_title_policy_lpnetconfig" translatable="false">lpnetConfig</string>
+    <string name="settings_title_appfreezer" translatable="false">AppFreezer and LPTCP</string>
+    <string name="settings_title_dummydata" translatable="false">Dummy Data</string>
+    <string name="settings_title_dummydata_make_abuse_app" translatable="false">make Abuse App @SW</string>
+    <string name="settings_title_dummydata_make_appfreezer_app" translatable="false">make Appfreezer List @SW</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="apps">APPS</string>
+    <string name="contacts">CONTACTS</string>
+    <string name="there_is_no_permission_to_read_contacts">there is no permission to read contacts</string>
+    <string name="there_is_no_permission_to_use_tools">there is no permission to use tools</string>
+    <string name="request">Request</string>
+    <string name="no_contacts">NO CONTACTS</string>
+    <string name="it_supports_up_to_five_applications">It supports up to five applications</string>
+    <string name="need_to_at_least_one">Need to select at least a application</string>
+    <string name="tools">TOOLS</string>
+    <string name="file">FILE</string>
+    <string name="new_version_available">A new version is available. Update now?</string>
+    <string name="need_to_draw_overlay">This app need to appear over other apps you are using.</string>
+    <string name="freed_memoey">%d MB RAM freed</string>
+    <string name="freed_memoey_already">optimized already</string>
+    <string name="remakeplease">Error : Recreate item please</string>
+
+
+
+
+    <string name="welcom_head_01">Let\'s start!</string>
+    <string name="welcom_content_01">Welcome to OneSwipe</string>
+    <string name="welcom_head_02">Favorites</string>
+    <string name="welcom_content_02">Quickly open your most frequently used apps.</string>
+    <string name="welcom_head_03">Tools</string>
+    <string name="welcom_content_03">Toggle Settings, Home key, Back key</string>
+    <string name="welcom_head_04">Direct Calling</string>
+    <string name="welcom_content_04">Make a call directly contacts you have.</string>
+    <string name="welcom_head_05">Try : Launch App</string>
+    <string name="welcom_head_06">Try : Open Menu</string>
+    <string name="welcom_head_06_2">Great!!</string>
+    <string name="welcom_content_05">Drag down from the corner(red circle)</string>
+    <string name="welcom_content_05_1">Release on youtube icon</string>
+    <string name="welcom_content_06">Drag down from the corner(red circle)</string>
+    <string name="welcom_content_06_1">Drag to youtube icon and release after 2 second</string>
+    <string name="welcom_content_06_2">Let\'s Start!</string>
+    <string name="welcom_content_06_3">Wait 2 Second!</string>
+    <string name="welcom_content_06_4">Release Now!</string>
+    <string name="tutorial">TUTORIAL</string>
+    <string name="start">START</string>
+    <string name="skip">Skip</string>
+    <string name="need_to_finish_tutorial">If you want to use, tutorial must be finished</string>
+    <string name="launch_oneswipe">Launch OneSwipe</string>
+    <string name="screen_overlay_off">Screen Overlay Off</string>
+
+
+</resources>

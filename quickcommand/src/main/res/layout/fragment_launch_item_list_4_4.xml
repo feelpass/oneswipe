@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="128dp"
+    android:animateLayoutChanges="true"
+    android:background="#40000000"
+    tools:context=".LaunchItemDialogActivity">
+
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_centerInParent="true"
+        android:background="#42000000"
+        android:choiceMode="singleChoice"
+        android:clickable="false"
+        android:fadingEdge="horizontal|vertical"
+        android:gravity="center"
+        android:horizontalSpacing="0dp"
+        android:numColumns="4"
+        android:verticalSpacing="0dp" />
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="92dp"
+        android:layout_toRightOf="@id/grid_view"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/button_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/button_cancel"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/button_ok"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@android:string/ok"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="96dp"
+        android:layout_toLeftOf="@id/grid_view"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/button_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@drawable/ic_folder_open_24dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/unnamed_folder"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/button_file"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@drawable/ic_attachment_24dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/file"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+        <ImageView
+            android:id="@+id/button_widget"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:src="@drawable/ic_now_widgets_24dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/file"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+    </LinearLayout>
+</RelativeLayout>

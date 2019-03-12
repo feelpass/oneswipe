@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flickr="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_widget"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_now_widgets_24dp"
+        flickr:showAsAction="always"
+        android:title="@string/add_link_list_widget" />
+</menu>

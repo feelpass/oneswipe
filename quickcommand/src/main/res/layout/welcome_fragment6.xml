@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:background="#3367d6" >
+    <TextView
+        android:id="@+id/turorial"
+        android:text="@string/tutorial_step_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/heading"
+        android:layout_alignStart="@+id/heading"
+        android:layout_marginTop="37dp" />
+    <FrameLayout
+        android:id="@id/images"
+        android:layout_width="@dimen/welcome_images_size"
+        android:layout_height="@dimen/welcome_images_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/welcome_images_margin_top"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/welcome_tutorial_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tutorial_1_1"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/image_round"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/drag_image_round"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@id/welcome_tutorial_main"
+            android:layout_alignEnd="@id/welcome_tutorial_main"
+            android:layout_marginRight="55dp"
+            android:layout_marginEnd="54dp"
+            android:layout_gravity="right|top" />
+
+        <ImageView
+            android:id="@+id/image_arrow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/drag_image_arrow"
+            android:layout_marginTop="54dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@id/welcome_tutorial_main"
+            android:layout_alignEnd="@id/welcome_tutorial_main"
+            android:layout_marginRight="55dp"
+            android:layout_marginEnd="54dp"
+            android:layout_gravity="right|top" />
+
+        <ImageView
+            android:id="@+id/welcome_tutorial_main_next"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/drag_image_round"
+            android:layout_marginTop="188dp"
+            android:visibility="invisible"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/welcome_tutorial_main"
+            android:layout_alignEnd="@+id/welcome_tutorial_main"
+            android:layout_marginRight="102dp"
+            android:layout_marginEnd="54dp"
+            android:layout_gravity="right|top" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="@string/welcom_head_06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/images"
+        android:layout_alignLeft="@id/images"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="@dimen/welcome_text_margin"
+        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:textAppearance="@style/WelcomeHeadingAppearance" />
+
+    <TextView
+        android:id="@+id/content"
+        android:text="@string/welcom_content_06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/images"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="@dimen/welcome_text_margin"
+        android:layout_marginRight="@dimen/welcome_text_margin"
+        android:minHeight="@dimen/welcome_content_min_height"
+        android:textAppearance="@style/WelcomeContentAppearance" />
+
+</RelativeLayout>

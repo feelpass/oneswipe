@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flickr="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_image"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_photo_24dp"
+        flickr:showAsAction="always"
+        android:title="@string/popupmenu_image" />
+    <item
+        android:id="@+id/action_audio"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_music_video_black_24px"
+        flickr:showAsAction="always"
+        android:title="@string/popupmenu_audio" />
+    <item
+        android:id="@+id/action_video"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_movie_24dp"
+        flickr:showAsAction="always"
+        android:title="@string/popupmenu_video" />
+</menu>

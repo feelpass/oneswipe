@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="hotspots_title">
+        <item>@string/pref_trigger_area_title_top_left_corner</item>
+        <item>@string/pref_trigger_area_title_top_right_corner</item>
+        <item>@string/pref_trigger_area_title_left_edge_upper_half</item>
+        <item>@string/pref_trigger_area_title_right_edge_upper_half</item>
+        <item>@string/pref_trigger_area_title_left_edge_lower_half</item>
+        <item>@string/pref_trigger_area_title_right_edge_lower_half</item>
+        <item>@string/pref_trigger_area_title_bottom_left_corner</item>
+        <item>@string/pref_trigger_area_title_bottom_right_corner</item>
+        <item>@string/pref_trigger_area_title_bottom_left</item>
+        <item>@string/pref_trigger_area_title_bottom_right</item>
+        <item>@string/pref_trigger_area_title_bottom_edge</item>
+    </string-array>
+    <string-array name="hotspots_sharedpref" translatable="false">
+        <item>@string/pref_trigger_area_sharedpref_top_left_corner</item>
+        <item>@string/pref_trigger_area_sharedpref_top_right_corner</item>
+        <item>@string/pref_trigger_area_sharedpref_left_edge_upper_half</item>
+        <item>@string/pref_trigger_area_sharedpref_right_edge_upper_half</item>
+        <item>@string/pref_trigger_area_sharedpref_left_edge_lower_half</item>
+        <item>@string/pref_trigger_area_sharedpref_right_edge_lower_half</item>
+        <item>@string/pref_trigger_area_sharedpref_bottom_left_corner</item>
+        <item>@string/pref_trigger_area_sharedpref_bottom_right_corner</item>
+        <item>@string/pref_trigger_area_sharedpref_bottom_left</item>
+        <item>@string/pref_trigger_area_sharedpref_bottom_right</item>
+        <item>@string/pref_trigger_area_sharedpref_bottom_edge</item>
+    </string-array>
+    <string-array name="gesture_type">
+        <item>@string/settings_gesture_type_back</item>
+        <item>@string/settings_gesture_type_close</item>
+        <item>@string/settings_gesture_type_launch</item>
+        <!-- item>@string/settings_gesture_type_killprocess</item> -->
+        <item>@string/settings_gesture_type_context</item>
+        <item>@string/settings_gesture_type_recentapplication</item>
+        <item>@string/settings_gesture_type_home</item>
+        <item>@string/settings_gesture_type_indicator</item>
+        <item>@string/settings_gesture_type_appinfo</item>
+        <item>@string/settings_gesture_type_padsettings</item>
+        <item>@string/settings_gesture_type_trigger_area_detect_disable</item>
+    </string-array>
+    <string-array name="gesture_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <!--  <item>3</item> -->
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="settings_padsize">
+        <item>2x2</item>
+        <item>3x3</item>
+        <item>4x4</item>
+        <item>5x5</item>
+    </string-array>
+
+    <string-array name="settings_padsize_value">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="settings_dynamic_option">
+        <item>None</item>
+        <item>PenWindow(Galaxy Note only)</item>
+<!--        <item>Force close(Root only)</item> -->
+    </string-array>
+
+    <string-array name="settings_interaction_option">
+        <item>Swipe and Touch</item>
+        <item>Swipe and Up</item>
+        <!--        <item>Force close(Root only)</item> -->
+    </string-array>
+
+
+    <string-array name="settings_dynamic_option_value">
+        <item>0</item>
+        <item>1</item>
+<!--        <item>2</item> -->
+    </string-array>
+    <string-array name="settings_interaction_option_value">
+        <item>0</item>
+        <item>1</item>
+        <!--        <item>2</item> -->
+    </string-array>
+
+
+
+
+
+
+</resources>

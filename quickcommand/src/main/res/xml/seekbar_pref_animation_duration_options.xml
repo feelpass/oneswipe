@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.philleeran.flicktoucher.activity.SeekBarPreference
+        android:defaultValue="400"
+        android:dialogMessage="@string/pref_animation_duration_level_title"
+        android:key="key_animaion_duration"
+        android:max="500"
+        />
+
+</PreferenceScreen>
+
+    <!--
+            android:title="@string/pref_vibration_level_title"
+            android:summary="@string/settings_function_type_airplane"
+        android:text="@string/settings_function_type_backbutton"
+    -->
